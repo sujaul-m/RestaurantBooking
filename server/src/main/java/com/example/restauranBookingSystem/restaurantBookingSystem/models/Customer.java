@@ -1,6 +1,10 @@
 package com.example.restauranBookingSystem.restaurantBookingSystem.models;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "customers")
@@ -22,6 +26,9 @@ public class Customer {
     @Column(name = "email")
     private String email;
 
+    @OneToMany(mappedBy = "customer", fetch = FetchType.LAZY)
+    private List<Booking> bookings;
+
     public Customer(){};
 
     public Customer(String firstName, String lastName, String phoneNumber, String email) {
@@ -29,6 +36,7 @@ public class Customer {
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
         this.email = email;
+        this.bookings = new ArrayList<>();
     }
 
     public Long getId() {
@@ -69,5 +77,14 @@ public class Customer {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+
+    public List<Booking> getBookings() {
+        return bookings;
+    }
+
+    public void setBookings(List<Booking> bookings) {
+        this.bookings = bookings;
     }
 }
