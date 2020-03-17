@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff6bb5ad-eade-4c9a-a534-c39c3e637436" name="Default Changelist" comment="" />
+    <list default="true" id="ff6bb5ad-eade-4c9a-a534-c39c3e637436" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/thumbsup.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BookingSystemComponents/BarChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BookingSystemComponents/BarChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BookingSystemComponents/BookingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BookingSystemComponents/BookingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BookingSystemComponents/BookingTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BookingSystemComponents/BookingTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BookingSystemComponents/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BookingSystemComponents/Chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BookingSystemComponents/EditBookingForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BookingSystemComponents/EditBookingForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BookingSystemComponents/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BookingSystemComponents/SearchBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BookingSystemComponents/ShowBooking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BookingSystemComponents/ShowBooking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BookingSystemComponents/UpcomingEvents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/newBookingComponents/BookingUnsuccessful.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/newBookingComponents/BookingUnsuccessful.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/newBookingComponents/ConfirmBooking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/newBookingComponents/ConfirmBooking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/newBookingComponents/ExistingCustomers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/newBookingComponents/ExistingCustomers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/newBookingComponents/NewBookingForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/newBookingComponents/NewBookingForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/newBookingComponents/NewCustomerForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/newBookingComponents/NewCustomerForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/BookingSystemBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/BookingSystemBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/NewBookingBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/NewBookingBox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/NewBookingBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/NewBookingBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/components/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/components/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/configs/SpringGlobalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/configs/SpringGlobalConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/controllers/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/controllers/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/controllers/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/models/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/models/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/models/BookingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/models/BookingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/projections/EmbedBookings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/projections/EmbedBookings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/projections/EmbedCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/projections/EmbedCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/repository/booking/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/repository/booking/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/repository/booking/BookingRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/repository/booking/BookingRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/repository/booking/BookingRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/repository/booking/BookingRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/services/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/restauranBookingSystem/restaurantBookingSystem/services/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/test/java/com/example/restauranBookingSystem/restaurantBookingSystem/RestaurantBookingSystemApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/restauranBookingSystem/restaurantBookingSystem/RestaurantBookingSystemApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -16,12 +58,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1YtFgs8lVxqdjVF3TfTHv1yJLci" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
@@ -37,5 +83,8 @@
       <updated>1583754097123</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

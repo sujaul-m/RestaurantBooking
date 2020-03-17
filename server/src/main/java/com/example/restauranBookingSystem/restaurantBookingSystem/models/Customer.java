@@ -1,10 +1,10 @@
 package com.example.restauranBookingSystem.restaurantBookingSystem.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
-
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "customers")
@@ -78,7 +78,6 @@ public class Customer {
     public void setEmail(String email) {
         this.email = email;
     }
-
 
     public List<Booking> getBookings() {
         return bookings;

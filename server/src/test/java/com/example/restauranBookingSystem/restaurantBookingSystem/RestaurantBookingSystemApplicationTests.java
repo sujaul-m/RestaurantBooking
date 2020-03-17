@@ -7,7 +7,6 @@ import com.example.restauranBookingSystem.restaurantBookingSystem.repository.boo
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.jpa.repository.JpaRepository;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -29,16 +28,24 @@ class RestaurantBookingSystemApplicationTests {
 
 	@Test
 	void canSaveCustomer(){
-		assertEquals(3, customerRepository.findAll().size());
+		assertEquals(15, customerRepository.findAll().size());
 	}
 
 	@Test
 	void canSaveBooking(){
 		Customer customer = customerRepository.getOne(1L);
-		Booking booking = new Booking(2,3, customer, 20, 3,15,14,00);
+		Booking booking = new Booking(2,3, customer, 20, 3,15,"14:00");
 		bookingRepository.save(booking);
-		assertEquals(4, bookingRepository.findAll().size());
-		assertEquals(3, customer.getBookings().size());
+		assertEquals(18, bookingRepository.findAll().size());
+		assertEquals(4, customer.getBookings().size());
+	}
+
+
+	@Test
+	void canGetTotalGuest(){
+		Booking booking = bookingRepository.getOne(3L);
+		int result = booking.getTotalGuests();
+		assertEquals(10, result);
 	}
 
 }

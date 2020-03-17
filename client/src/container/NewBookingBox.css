@@ -1,0 +1,11 @@
+#booking {
+    display: none;
+}
+
+#newCustomerForm {
+    display: inline;
+}
+
+#existingCustomerForm {
+    display: inline;
+}
